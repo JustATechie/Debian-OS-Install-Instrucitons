@@ -29,4 +29,20 @@ sudo gdebi 1password-latest.deb
 ## Wine install
 dpkg --print-architecture
 sudo dpkg --add-architecture i386 && sudo apt update
+sudo apt install \
+      wine \
+      wine32 \
+      wine64 \
+      libwine \
+      libwine:i386 \
+      fonts-wine
+      
+## Git setup
+git config --global credential.helper store
+git pull
+git config --global pull.rebase false
+
+
+
+
 
