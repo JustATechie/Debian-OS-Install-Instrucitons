@@ -1,0 +1,32 @@
+## Give sudo permission
+su -
+usermod -aG sudo <username>
+# You will need to log out and back in for changes to take effect
+
+
+## NVIDIA Drivers Installation Process
+apt install linux-headers-amd64
+sudo gedit /etc/apt/sources.list # add in the necessary repo name/attachments for your specific version.
+apt update
+apt install nvidia-driver firmware-misc-nonfree
+# enable 32 bit support
+sudo dpkg —add-architecture i386 && sudo apt update
+sudo apt install nvidia-driver-libs:i386
+# Now restart for changes to take effect.
+
+## General Installations:
+sudo apt install git
+sudo apt install curl
+sudo apt install gdebi
+
+## 1Password Install:
+#once you’ve downloaded the .deb file from their website:
+sudo gdebi 1password-latest.deb
+
+
+####################
+
+## Wine install
+dpkg --print-architecture
+sudo dpkg --add-architecture i386 && sudo apt update
+
