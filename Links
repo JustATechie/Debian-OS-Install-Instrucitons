@@ -12,3 +12,13 @@ https://wiki.debian.org/Wine
 
 Git Setup:
 https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git
+
+SMB Share Instructions:
+https://www.looklinux.com/how-to-mount-samba-share-on-ubuntu-and-debian-system/
+
+SnapStore:
+https://snapcraft.io/docs/installing-snap-on-debian
+https://snapcraft.io/docs/installing-snap-store-app
+
+Timeshift:
+https://wiki.debian.org/timeshift

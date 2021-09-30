@@ -39,10 +39,10 @@ sudo apt install \
       
 ## Git setup
 git config --global credential.helper store
-git pull
 git config --global pull.rebase false
 git config --global user.name "Your Name"
 git config --global user.email you@example.com
+git pull
 
 
 
