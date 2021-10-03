@@ -36,6 +36,7 @@ sudo apt install \
       libwine \
       libwine:i386 \
       fonts-wine
+sudo apt install winetricks
       
 ## Git setup
 git config --global credential.helper store
@@ -44,5 +45,9 @@ git config --global user.name "Your Name"
 git config --global user.email you@example.com
 git pull
 
+#Configure OpenGL
+apt-get update && apt-get install libgl1-mesa-dev
+apt-get update && apt-get install libglu1-mesa-dev
+apt-get update && apt-get install freeglut3-dev
 
 
