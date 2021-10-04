@@ -39,6 +39,7 @@ sudo apt install \
 sudo apt install winetricks
       
 ## Git setup
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 git config --global credential.helper store
 git config --global pull.rebase false
 git config --global user.name "Your Name"

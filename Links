@@ -12,6 +12,8 @@ https://wiki.debian.org/Wine
 
 Git Setup:
 https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git
+https://git-lfs.github.com/
+https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
 
 SMB Share Instructions:
 https://www.looklinux.com/how-to-mount-samba-share-on-ubuntu-and-debian-system/
